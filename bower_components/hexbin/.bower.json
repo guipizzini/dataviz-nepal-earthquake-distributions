@@ -1,0 +1,14 @@
+{
+  "name": "hexbin",
+  "_cacheHeaders": {
+    "ETag": "\"8076834af934c2845d0f74fa93b7136870135a6c\"",
+    "Content-Length": "2705",
+    "Content-Type": "text/plain; charset=utf-8"
+  },
+  "_release": "e-tag:8076834af",
+  "main": "index.js",
+  "_source": "https://raw.githubusercontent.com/d3/d3-plugins/master/hexbin/hexbin.js",
+  "_target": "*",
+  "_originalSource": "https://raw.githubusercontent.com/d3/d3-plugins/master/hexbin/hexbin.js",
+  "_direct": true
+}
