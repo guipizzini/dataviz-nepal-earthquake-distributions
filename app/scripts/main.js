@@ -102,8 +102,6 @@ var viz = new Vizlib(dataSources, function(data){
 	// LOAD SVG LAYOUT
 	//**************************
 
-	console.log(data.layout);
-
 	var layout = viz.svgImport({
     'appendTo': mapsvg,
     'source': data.layout,
@@ -132,8 +130,6 @@ $('tspan').each(function(){
 	}
 
 })
-
-
 
 
 	//**************************
@@ -200,13 +196,13 @@ $('tspan').each(function(){
 
 	});
 	
-	
-	// mapsvg.append("text")
-	// .attr("x", 710 )
-	// .attr("y", 165 )
-	// .style('font-size', '12px')
-	// .style('font-family', 'calibry')
-	// .call(wrap, 250, 'partners'); // wrap the text in <= 30 pixels
+	mapsvg.append("text")
+	.attr("x",870 )
+	.attr("y", 40 )
+	.style('font-size', '20px')
+	.style('font-weight', 'bold')
+	.style('fill', 'darkred')
+	.text('ARCHIVED')
 
 	partners.sort(d3.descending);
 
